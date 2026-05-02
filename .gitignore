@@ -1,0 +1,26 @@
+# Ignore environment files
+.env
+.env.*
+*.env
+
+src/config/latest_config.js 
+
+# Ignore archive containing sensitive data
+ELYXA.zip
+
+# Ignore common sensitive files
+*.key
+*.pem
+*.p12
+*.crt
+*.pub
+*.secret
+credentials.json
+token.json
+client_secret*.json
+
+# Ignore runtime generated files
+node_modules/
+npm-debug.log*
+.cache/
+*.log
