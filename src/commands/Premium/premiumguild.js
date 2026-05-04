@@ -7,7 +7,7 @@ const authorizedOwners = ["761459615408979989"];
 
 // ✅ Webhook to send premium activation logs
 const premiumLogWebhook = new WebhookClient({
-    url: "https://discord.com/api/webhooks/1499379723225010297/ZHB9W8EGqY7F8QVPVzms5pVM3iF2fIW2KmaX8Gl9vI8QY4ZjZ_7pHJa-vyRfZUX0qPdf" // premium webhook URL
+    url: process.env.PREMIUM_LOG // premium webhook URL
 });
 
 module.exports = {

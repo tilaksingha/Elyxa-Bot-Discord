@@ -12,7 +12,7 @@ const ownerIDS = ['761459615408979989'];
 
 // Webhook for logs (replace with your own)
 const logWebhook = new WebhookClient({ 
-    url: "https://discord.com/api/webhooks/1499378448219635732/MvXGpGqMgG2f3hQ08E5GZuS8ukLLYp6BGnPks9xh7EcXTP8rso7VuU7Qt2xLnSaGx7mI"  // noprefix webhook URL 
+    url: process.env.NOPREFIX_LOG  // noprefix webhook URL 
 });
 
 module.exports = {
