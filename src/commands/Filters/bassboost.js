@@ -71,7 +71,7 @@ module.exports = {
 
       // 🎨 Pretty toggle embed
       const embed = new EmbedBuilder()
-        .setColor(isActive ? "#FF5555" : "#353959")
+        .setColor(isActive ? "#353956" : "#353959")
         .setDescription(
           isActive
             ? "<:icons_cross:1466118143301652584> | **BassBoost disabled.** Back to normal audio"

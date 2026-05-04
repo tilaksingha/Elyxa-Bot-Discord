@@ -52,7 +52,7 @@ module.exports = {
           new EmbedBuilder()
             .setColor(client.color)
             .setDescription(
-              "<:Warn:1466122055408681228> | No playlists found for this server! Create one using `!createplaylist <name>`"
+              "<:Warn:1466122055408681228> | No playlists found for this server! Create one using `createplaylist <name>`"
             ),
         ],
       });

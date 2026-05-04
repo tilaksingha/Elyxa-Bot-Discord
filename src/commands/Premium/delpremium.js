@@ -40,7 +40,7 @@ module.exports = {
       // ✅ Confirmation embed for the command user
       const confirmEmbed = new EmbedBuilder()
         .setTitle("Premium Removed!")
-        .setColor("#FF5555")
+        .setColor("#353956")
         .setDescription(
           `<:icons_cross:1466118143301652584> Premium has been removed from **${
             guild ? guild.name : `Unknown Guild (${guildId})`

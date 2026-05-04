@@ -51,7 +51,7 @@ module.exports = {
       player.filters.rotation = payload.rotation;
 
       const embed = new EmbedBuilder()
-        .setColor(is3dOn ? "#FF5555" : "#353959")
+        .setColor(is3dOn ? "#353956" : "#353959")
         .setDescription(
           is3dOn
             ? "<:icons_cross:1466118143301652584> | **3D filter disabled.** Back to normal audio."

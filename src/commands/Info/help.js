@@ -44,10 +44,10 @@ module.exports = {
       .setDescription(`
  Hey **${message.author.username}**, I am **Elyxa Music**
 
-> <:dot:1490319943860883476> **Prefix:** \`${prefix}\`
-> <:dot:1490319943860883476> **Total Commands:** \`${totalCmds}\`
-> <:dot:1490319943860883476> Use \`${prefix}help\` to see all commands.
-> <:dot:1490319943860883476> **Developer** <@761459615408979989>
+> <:dot:1489151103051239567> **Prefix:** \`${prefix}\`
+> <:dot:1489151103051239567> **Total Commands:** \`${totalCmds}\`
+> <:dot:1489151103051239567> Use \`${prefix}help\` to see all commands.
+> <:dot:1489151103051239567> **Developer** <@761459615408979989>
 
 __Use the dropdown menu to explore categories.__
 `)
@@ -69,7 +69,7 @@ __Use the dropdown menu to explore categories.__
           inline: true,
         },/*
         {
-          name: "<a:hashtag:1499632985442484344> __Commands__",
+          name: "<a:shiningcrown:1456453140718293145> __Commands__",
           value: [
             "> **Moderation**",
             "> **Admin**",
@@ -184,7 +184,7 @@ __Use the dropdown menu to explore categories.__
           .setDescription("> Below is a complete list of all commands by category.\n")
           .addFields(
             Object.entries(categories).map(([cat, cmds]) => ({
-              name: `<a:hashtag:1499632985442484344> ${cat} Commands`,
+              name: `<a:shiningcrown:1456453140718293145> ${cat} Commands`,
               value: cmds.length > 0
                 ? cmds.map(c => `\`${c}\``).join(", ")
                 : "_No commands available_",

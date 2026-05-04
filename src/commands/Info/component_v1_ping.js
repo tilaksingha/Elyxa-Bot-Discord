@@ -2,7 +2,7 @@ const { EmbedBuilder } = require("discord.js");
 const mongoose = require("mongoose");
 
 module.exports = {
-  name: "ping",
+  name: "pingv1",
   aliases: [],
   description: "Check bot and database latency",
   category: "Info",

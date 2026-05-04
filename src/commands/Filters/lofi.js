@@ -79,7 +79,7 @@ module.exports = {
 
       // 🖼️ Response embed
       const embed = new EmbedBuilder()
-        .setColor(isActive ? "#FF5555" : "#353959")
+        .setColor(isActive ? "#353956" : "#353959")
         .setDescription(
           isActive
             ? "<:icons_cross:1466118143301652584> | **Lo-Fi filter disabled.** Back to crisp audio"

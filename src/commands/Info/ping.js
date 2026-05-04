@@ -33,8 +33,8 @@ module.exports = {
             .addTextDisplayComponents(
               new TextDisplayBuilder().setContent(`## <a:Pingg:1499332972300734464> Pong!`),
               new TextDisplayBuilder().setContent(
-                `> <:dot:1490319943860883476> Bot Latency: \`${apiLatency} ms\`\n` +
-                `> <:dot:1490319943860883476> Database Latency: \`${dbLatency} ms\`\n` +
+                `> <:dot:1489151103051239567> Bot Latency: \`${apiLatency} ms\`\n` +
+                `> <:dot:1489151103051239567> Database Latency: \`${dbLatency} ms\`\n` +
 
                 `\n\nPowered by [EllenCloud Hostings](https://dsc.gg/ellencloud) - Fast and Reliable Hosting.`
               )

@@ -84,7 +84,7 @@ module.exports = {
         });
 
         const successEmbed = new EmbedBuilder()
-          .setColor("#57F287")
+          .setColor("#353956")
           .setTitle("Reward Redeemed!")
           .setDescription(
             `You’ve successfully activated your **7-day No Prefix** access!\n\n` +

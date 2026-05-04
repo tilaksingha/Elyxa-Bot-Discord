@@ -75,7 +75,8 @@ module.exports = {
             new EmbedBuilder()
               .setColor(client.color)
               .setDescription(
-                "<:Warn:1466122055408681228> | Playlist not found! Create one using `!createplaylist <name>` first."
+                "<:Warn:1466122055408681228> | Playlist not found! Create one using `createplaylist <name>` first."
+                
               ),
           ],
         });

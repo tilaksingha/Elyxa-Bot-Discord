@@ -74,7 +74,7 @@ module.exports = {
 
       // 🎨 Embed feedback
       const embed = new EmbedBuilder()
-        .setColor(isActive ? "#FF5555" : "#F5B342")
+        .setColor(isActive ? "#353956" : "#F5B342")
         .setDescription(
           isActive
             ? "<:icons_cross:1466118143301652584> | **Warm Pad filter disabled.** Back to normal tone"
