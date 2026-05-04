@@ -18,7 +18,7 @@ module.exports = {
 
   run: async (client, message, args) => {
     try {
-      const msg = await message.channel.send("Pinging...");
+      const msg = await message.channel.send(" <a:Pingg:1500695882922852493> Pinging...");
 
       const botLatency = msg.createdTimestamp - message.createdTimestamp;
       const apiLatency = Math.round(client.ws.ping);
@@ -31,7 +31,7 @@ module.exports = {
         .addSectionComponents(
           new SectionBuilder()
             .addTextDisplayComponents(
-              new TextDisplayBuilder().setContent(`## <a:Pingg:1499332972300734464> Pong!`),
+              new TextDisplayBuilder().setContent(`## <a:Pingg:1500695882922852493> Pong!`),
               new TextDisplayBuilder().setContent(
                 `> <:dot:1489151103051239567> Bot Latency: \`${apiLatency} ms\`\n` +
                 `> <:dot:1489151103051239567> Database Latency: \`${dbLatency} ms\`\n` +
