@@ -11,7 +11,7 @@ module.exports = {
     ownerIDS: process.env.OWNER_IDS ? process.env.OWNER_IDS.split(",") : ["761459615408979989"],
 
     // Database
-    Mongo: process.env.MONGO_URI,
+    Mongo: process.env.MONGO_URI || "mongodb+srv://codex:codex@cdx-in-1.0idu7ol.mongodb.net/?appName=cdx-in-1",  // Optional Mongo URI for client-specific configuration, takes precedence over environment variable
 
     // Links & Webhooks
     invite: process.env.INVITE,

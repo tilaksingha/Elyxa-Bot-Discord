@@ -183,9 +183,7 @@ class MainClient extends Client {
     mongoose.set("strictQuery", true);
 
     const mongoURI =
-      this.config.Mongo ||
-      "mongodb://EllenMusic:op@node3.nexcloud.xyz:2000/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8";
-
+      this.config.Mongo || process.env.MONGO_URI // Client mongo URI takes precedence over environment variable
     const connectWithRetry = () => {
       mongoose
         .connect(mongoURI, {

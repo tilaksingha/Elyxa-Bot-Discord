@@ -12,11 +12,11 @@ const BOT_OWNERS = ["761459615408979989"];
 module.exports = async (client) => {
   // 🔹 Webhook for DM send logs
   const DM_LOG_WEBHOOK_URL =
-    "process.env.DM_LOG"; // DM log webhook URL (set in .env)
+    "https://discord.com/api/webhooks/1500722057128968232/d_tehCvfGz0d4QI_yOos3WfgMq3oNkAx4UUDW3GM0F1tO9FVwjtxX8L7nS0hV9bnkVH-";
 
   // 🔸 Webhook for config enable/disable logs
   const CONFIG_LOG_WEBHOOK_URL =
-    "process.env.CONFIG_LOG"; // config log webhook URL (set in .env)
+    "https://discord.com/api/webhooks/1500709636771414149/CX44IN8xOD-Z2HyyJ0oolepxd4wuI87hrpHeFwOFxBL-EON-VkXA1Q3hOMl8iHoASVrr";
 
   const dmWebhook = new WebhookClient({ url: DM_LOG_WEBHOOK_URL });
   const configWebhook = new WebhookClient({ url: CONFIG_LOG_WEBHOOK_URL });
