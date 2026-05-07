@@ -3,8 +3,8 @@ const { token, shardLogWebhook } = require("./config/config.js");
 const axios = require("axios");
 
 const manager = new ClusterManager(`${__dirname}/index.js`, {
-    totalShards: 2,
-    shardsPerClusters: 2,
+    totalShards: 1,
+    shardsPerClusters: 1,
     mode: "process",
     token: token,
     respawn: true,
